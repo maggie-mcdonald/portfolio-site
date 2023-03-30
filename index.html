@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Maggie Mcdonald</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <script src="https://kit.fontawesome.com/a7717ad5f3.js" crossorigin="anonymous"></script>
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!-- Scroll to Top Button -->
+  <button onclick="topFunction()" id="scroll-button" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <header>
+    <h1>Maggie McDonald</h1>
+    <div class="topnav">
+      <a href="https://drive.google.com/file/d/1eWSoo2rU5TxnEJtU7P67NKTZ4n8mGt8A/view?usp=sharing"
+        target="_blank">Resume</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+  <main>
+    <div id="hero">
+      <div class="hero-content-wrapper">
+        <div class="half-content">
+          <figure>
+            <a href="#"><img src="img/profile-pic.png" alt="maggie"></a>
+          </figure>
+        </div>
+        <div class="half-content">
+          <h2 class="hero-text">
+            Hi! <em>I'm Maggie</em> and I'm a Front End Web Developer in Georgia who specializes in writing clean
+            and responsive code.
+          </h2>
+        </div>
+      </div>
+
+      <!--Skill Section-->
+      <section id="skills">
+        <div class="skills-section">
+          <div class="half-content">
+            <h2 class="hero-text">
+              Skills:<br>
+              <span>HTML5 | CSS3 | JavaScript | React.js | Flexbox & CSS Grid | JSX | ES6 | Git |
+                Version Control | APIs | Managing data flow | Media queries | Responsive typography
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div class="half-content">
+          <h2 class="hero-text">
+            Tools:<br>
+            <span>Visual Studio Code | Code Sandbox | Chrome DevTools | GitHub | Photoshop
+            </span>
+          </h2>
+        </div>
+      </section>
+    </div>
+
+    <!--Project Section-->
+    <section id="projects">
+      <div class="project-container">
+        <h3>Project:<br>Guess The Word Game</h3>
+        <div class="project">
+          <a href="#"><img src="img/guess-the-word.png" title="Guess the Word Game"></a>
+        </div>
+        <div class="project-info">
+          <p class="description"> An interactive Vanilla JavaScript game where the player must guess the word one
+            letter
+            at a time with a total of 8 guesses.</p>
+          <p class="skills"><em>Skills: JS, Responsive Design, DOM Manipulation, Loops, APIs</em></p>
+          <button onclick="open(`https://maggie-mcdonald.github.io/guess-the-word/`);">Live
+            Site</button>
+          <button onclick="window.open(`https://github.com/maggie-mcdonald/guess-the-word`);">Github
+            Repo</button>
+        </div>
+      </div>
+      <div class="project-container">
+        <h3>Project:<br>Super Sticky Notes</h3>
+        <div class="project">
+          <a href="#"><img src="img/sitcky-note-app.png" title="Super Sticky Notes App"></a>
+        </div>
+        <div class="project-info">
+          <p class="description"> A React app that allows for creation, deletion and editing of sticky notes. The notes
+            are saved to local storage and include a search feature.</p>
+          <p class="skills"><em>Skills: React.JS, JSX, ES6, CSS3, Lifecycle Methods</em></p>
+          <button onclick="window.open(`https://codesandbox.io/s/super-sticky-notes-forked-3v6czj`);">Live
+            Site</button>
+          <button
+            onclick="window.open(`https://codesandbox.io/s/l12-build-your-big-component-help-forked-cjzrq0`);">Code
+            Sandbox</button>
+        </div>
+      </div>
+      <div class="project-container">
+        <h3>Project:<br>GitHub Repo Gallery</h3>
+        <div class="project">
+          <a href="#"><img src="img/github-repo-gallery.png" title="GitHub Repo Gallery"></a>
+        </div>
+        <div class="project-info">
+          <p class="description">A responsive API gallery of my current repos on Github. Repos are easy to find with
+            an
+            eliminating search feature and easy navigation with multiple buttons.</p>
+          <p class="skills"><em>Skills: JS, APIs, Dom Manipulation, Loops</em></p>
+          <button onclick="window.open(`https://maggie-mcdonald.github.io/github-repo-gallery/`);">Live
+            Site</button>
+          <button onclick="window.open(`https://github.com/maggie-mcdonald/github-repo-gallery`);">Github
+            Repo</button>
+        </div>
+      </div>
+    </section>
+
+    <!--about section-->
+    <section id="about">
+      <div class="about-me-content-wrapper">
+        <div class="about-flex-container">
+          <div class="about-half-content">
+            <div class="logo">
+              <a href="#"><img src="img/mags-logo.png" alt="mags-logo"></a>
+            </div>
+          </div>
+          <div class="about-half-content">
+            <div class="about">
+              <h3>About Me:</h3>
+              <p class="info">Hi there! I'm Maggie and I love development because I have an eternal quest of learning
+                how to
+                make things
+                work efficiently with responsiveness and accessibility in mind! As a former Special Educator, I excel
+                in
+                managing chaos and complex problem solving with a positive attitude.
+
+                I’m either coding, spending time with my husband, daughter and three golden retrievers, or you can
+                find
+                me
+                trying to figure out how to renovate something else in our family’s home!
+
+                I'd love to take my next <span>click</span> into the coding world with you!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content-wrapper">
+        <section id="contact">
+          <h3>Let's have a chat!</h3>
+          <div class="social-icons">
+            <p class="size-icon"><a href="mailto:hamaggie25@gmail.com" title="Email Maggie"><i
+                  class="fa-sharp fa-solid fa-envelope"></i></a>
+            </p>
+            <p class="size-icon">
+              <a href="https://github.com/maggie-mcdonald" target="_blank" title="Maggie's Github profile"><i
+                  class="fa-brands fa-github"></i></a>
+            </p>
+            <p class="size-icon">
+              <a href="https://linkedin.com/in/maggie-mcdonald-3049a3217/" target="_blank"
+                title="Maggie's Linkedin profile"><i class="fa-brands fa-linkedin"></i></a>
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="footnote">
+        <p>Portfolio 2023 | Maggie McDonald</p>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>

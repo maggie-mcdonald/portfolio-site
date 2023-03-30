@@ -1,0 +1,14 @@
+{
+  "name": "sender",
+  "version": "1.0.0",
+  "description": "message sending capability",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install messagemedia-messages-sdk"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "messagemedia-messages-sdk": "^2.0.3"
+  }
+}
