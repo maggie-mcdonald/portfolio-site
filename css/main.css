@@ -501,7 +501,10 @@ footer a:hover {
   }
 
   .project-container {
-    width: 40%;
+    width: 35%;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 3em;
   }
 
 
